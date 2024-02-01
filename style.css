@@ -4,9 +4,8 @@
     box-sizing: border-box;
 }
 
-/*Mobile First*/
+/*Laptop first*/
 nav{
-    max-height: 10vh;
     background-color: rgba(34, 139, 34, 0.8);
 }
 .img-thumbnail{
@@ -30,7 +29,7 @@ nav{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 50%;
+    padding-top: 30vh;
 }
 .garden h1{
     font-size: 32pt;
@@ -42,13 +41,13 @@ nav{
 }
 .transport{
     background-image: url(src/images/Carousel_transport.jpg);
-    background-size: cover;
+    background-size: contain;
     background-position: 42%;
     height: 95vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 50%;
+    padding-top: 30vh;
 }
 .transport h1{
     font-size: 32pt;
@@ -66,7 +65,7 @@ nav{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 50%;
+    padding-top: 30vh;
 }
 .waste h1{
     font-size: 32pt;
@@ -76,14 +75,31 @@ nav{
     text-align: center;
     padding: 0.5rem;
 }
-#about{
-    height: 100vh;
+#contactBar{
+    position: absolute;
+    margin-top: 94.5vh;
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 3rem;
+    border: 1px solid black;
+    border-radius: 2rem;
+    top: -2vh;
+    background-color: white;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+    padding-right: 1rem;
+}
+#Überblick{
+    height: 90vh;
     display: flex;
     flex-direction: column;
+    background-color: rgba(34, 139, 34, 0.8);
 }
-#about h2{
-    font-size: 16pt;
+h2{
+    font-size: 24pt;
     text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 5vh;
 }
 .about-text{
     display: flex;
@@ -94,9 +110,33 @@ nav{
 }
 .about-inner-text{
     width: 40vw;
-    font-size: medium;
-    font-size: small;
-    text-align: justify;
+    text-align: center;
+    font-size: 22pt;
     border: 1px solid black;
-    margin: 0.3rem;
+    margin: 1rem;
+    height: 30vh;
+}
+#whyMS{
+    height: 80vh;
+    background-color: rgba(34, 139, 34, 0.8);
+    text-align: center;
+    font-size: 22pt;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+#about{
+    height: 80vh;
+    background-color: white;
+    text-align: center;
+    font-size: 22pt;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+#contact{
+    height: 40vh;
+    background-color: white;
+    text-align: center;
+    font-size: 22pt;
+    padding-left: 25%;
+    padding-right: 25%;
 }
