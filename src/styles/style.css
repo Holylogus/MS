@@ -3,9 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/*Mobile First*/
 nav{
     max-height: 10vh;
-    background-color: rgba(34, 139, 34);
+    background-color: rgba(34, 139, 34, 0.8);
 }
 .img-thumbnail{
     height: 50px;
@@ -24,7 +26,7 @@ nav{
     background-image: url(/src/images/backGround.jpg);
     background-size: cover;
     background-position: 42%;
-    height: 100vh;
+    height: 95vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -37,4 +39,64 @@ nav{
     text-shadow: 2px 2px 2px 0.5;
     text-align: center;
     padding: 0.5rem;
+}
+.transport{
+    background-image: url(/src/images/Carousel_transport.jpg);
+    background-size: cover;
+    background-position: 42%;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50%;
+}
+.transport h1{
+    font-size: 32pt;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 2px 0.5;
+    text-align: center;
+    padding: 0.5rem;
+}
+.waste{
+    background-image: url(/src/images/entruempelung.jpg);
+    background-size: cover;
+    background-position: 42%;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50%;
+}
+.waste h1{
+    font-size: 32pt;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 2px 0.5;
+    text-align: center;
+    padding: 0.5rem;
+}
+#about{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+#about h2{
+    font-size: 16pt;
+    text-align: center;
+}
+.about-text{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.about-inner-text{
+    width: 40vw;
+    font-size: medium;
+    font-size: small;
+    text-align: justify;
+    border: 1px solid black;
+    margin: 0.3rem;
 }
