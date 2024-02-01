@@ -23,7 +23,7 @@ nav{
     
 }
 .garden{
-    background-image: url(/src/images/backGround.jpg);
+    background-image: url(src/images/backGround.jpg);
     background-size: cover;
     background-position: 42%;
     height: 95vh;
@@ -41,7 +41,7 @@ nav{
     padding: 0.5rem;
 }
 .transport{
-    background-image: url(/src/images/Carousel_transport.jpg);
+    background-image: url(src/images/Carousel_transport.jpg);
     background-size: cover;
     background-position: 42%;
     height: 95vh;
@@ -59,7 +59,7 @@ nav{
     padding: 0.5rem;
 }
 .waste{
-    background-image: url(/src/images/entruempelung.jpg);
+    background-image: url(src/images/entruempelung.jpg);
     background-size: cover;
     background-position: 42%;
     height: 95vh;
